@@ -1,11 +1,12 @@
-import React from 'react';
-import './App.css';
-
+import * as React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Header } from './components'
+ 
 const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+    <Header/>
+    </>
   );
 }
 
